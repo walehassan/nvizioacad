@@ -1,13 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://kit.fontawesome.com/b1f34a01fc.js');
 
 #root {
   
-  margin: 0 auto;
-  padding: 2rem;
+  margin: auto;
   text-align: center;
+  justify-content: center;
 }
 
 h1 {
@@ -22,3 +23,170 @@ input {
   border: 1px solid #ccc;
 }
 
+.herop{
+  font-size: 12px;
+}
+.getstarted{
+  height: 40px;
+  width: 150px;
+  background-color: #166aea;
+  border-radius: 20px;
+}
+.scndsection{
+  position: relative;
+  width: 900px;
+  height: 400px;
+  margin-top: 20px;
+}
+.scndimg{
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  display: block;
+}
+.scndinner{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translateX(-50%, -50%);
+  width: 400px;
+  height: 200px;
+  z-index: 2;
+}
+
+span{
+  font-size: 15px ;
+}
+
+.reshosting{
+  font-weight: 400;
+  font-size: 40px;
+  text-align: left;
+}
+
+.thirdsect{
+  height: 80px;
+  border-radius: 40px;
+  background-color: #fafafb;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 20px;
+}
+
+.thirdsect:hover{
+  background-color:#75a8f5 ;
+}
+
+.thirdsectxt{
+  color: black;
+  text-align: left;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.getstarted2{
+  height: 40px;
+  width: 150px;
+  color: black;
+  margin-top: 10px;
+  background-color: #fbfbfc;
+  border-radius: 20px;
+}
+
+.fourthsection{
+  background-color: #101585;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  width: 1000px;
+  height: fit-content;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.getvis{
+  font-weight: 400;
+  text-align: left;
+}
+.sitespeed{
+  font-weight: 400;
+  font-size: 20px;
+}
+.fourthsec{
+  display: flex;
+  gap: 70px;
+  padding: 50px;
+}
+.fourthsect1{
+  text-align: left;
+  line-height: 0.5cm;
+}
+
+.thrdimg{
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}
+.fifthsect{
+  display: flex;
+  gap: 30px;
+}
+.fourthimg{
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.fifthsec1{
+  text-align: left;
+  line-height: 0.5cm;
+}
+.create{
+  font-size: 30px;
+  font-weight: 400;
+}
+.getstarted3{
+  height: 40px;
+  width: 150px;
+  color: black;
+  margin-top: 10px;
+  background-color: #fbfbfc;
+  border-radius: 20px;
+}
+.fifthsecp{
+  font-size: 15px;
+}
+.fifthimg{
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.sixthsect{
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sixthimg{
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}
+.sixthsect1{
+  text-align: left;
+}
+.getstarted4{
+  height: 40px;
+  width: 200px;
+  color: black;
+  margin-top: 10px;
+  background-color: #fbfbfc;
+  border-radius: 20px;
+}
