@@ -1,0 +1,18 @@
+.herodescript{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+h3{
+    font-weight: 200;
+}
+.herodes2{
+    font-weight: 200;
+    font-style: stretch;
+    font-size: 15px;
+    padding-top: 2rem;;
+}
+.heroh1{
+    font-size: 60px;
+    font-weight: 300;
+}
